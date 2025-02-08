@@ -1,0 +1,161 @@
+
+nav {
+    display: inline-block;
+}
+
+button a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.note {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: lightgreen;
+    border-left: 5px solid #4CAF50;
+    transition: transform 0.3s;
+    width: 400px;
+}
+
+.slide:hover {
+    transform: translateX(5px);
+}
+
+.note-id {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 4px;
+    display: inline;
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #999;
+}
+
+.note-date {
+    font-size: 20px;
+    display: inline;
+    font-family: monospace;
+}
+
+.note-title {
+    margin-top: 2px;
+    margin-bottom: 6px;
+    font-size: 26px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.note-article {
+    font-size: 18px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.note-edit {
+    padding: 0px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 16px;
+    right: 56px;
+    display: inline;
+    font-family: monospace;
+    margin-left: auto;
+    width: 38px;
+    height: 38px;
+    background: #FFFC9A;
+    border: 4px solid #eac964;
+}
+
+.note-delete {
+    padding: 0px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 16px;
+    right: 10px;
+    font-family: monospace;
+    margin-left: auto;
+    width: 38px;
+    height: 38px;
+    background: #FF9A9A;
+    border: 4px solid #DE6461;
+}
+
+.button-image{
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.hidden-button{
+    visibility: hidden;
+}
+
+.outer-button {
+    width: auto;
+    height: auto;
+    writing-mode: vertical-rl;
+    position: relative;
+    right: auto;
+    left: 5px;
+}
+
+.comment-container:hover .hidden-button{
+    visibility: visible;
+}
+
+.comment-container{
+    display: flex;
+    width: 460px;
+}
+
+.comment {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: rgb(212, 212, 212);
+    border-left: 5px solid #999999;
+    transition: transform 0.3s;
+    width: 400px;
+}
+
+.comment-header {
+    height: 10px;
+    width: auto;
+    /* padding: 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.comment-author-u {
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.comment-author-a {
+    font-size: 16px;
+    font-family: monospace;
+    color: rgb(194, 15, 15);
+    font-weight: bold;
+}
+
+.comment-date {
+    font-size: 16px;
+    position: relative;
+    right: 16px;
+    font-family: monospace;
+    margin-left: auto;
+}
+
+input {
+    display: block;
+}
+
+textarea{
+    display: block;
+    margin-bottom: 2px;
+}
